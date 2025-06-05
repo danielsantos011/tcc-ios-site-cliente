@@ -7,7 +7,8 @@ body{
 header{
     background-color: grey;
     height: 400px;
-    background-image: url(./easy-lemon-layer-cake-hero-e54adca.jpg);
+    background-color: #ba398e;
+   
 }
 
 .nav-bar{
@@ -19,6 +20,8 @@ header{
 }
 
 .nav-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 
 }
 
