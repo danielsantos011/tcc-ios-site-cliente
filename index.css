@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    
+
 }
 
 header{
     background-color: grey;
-    height: 400px;
+    height: 100px;
     background-color: #ba398e;
    
 }
@@ -15,13 +21,13 @@ header{
 
 }
 
-.nav-logo{
+.nav-logo img{
+    width: 100px;
 
 }
 
 .nav-text{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+
 
 }
 
