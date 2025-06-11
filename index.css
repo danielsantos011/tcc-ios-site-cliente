@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root{
+  --cor--principal: #447C7D;
+}
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-section {
+  background-image: url(./assets/image/WhatsApp-Image-2019-07-01-at-23.37.38.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  position: relative;
+}
+
+
+.nav-bar {
+  position: fixed; 
+  top: -10px;
+  left: -10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 50px; /* padding bem pequeno para economizar espaço vertical */
+  z-index: 10; /* garante que fique por cima */
+}
+
+.image img {
+  width: 100px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.text a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  font-size: 16px;
+
+}
+
+.text button {
+  background-color: var(--cor--principal);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 5px;
+}
+
+.text button a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.hero-content {
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+  transform: none;
+  text-align: left;
+  max-width: 1100px;
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: left;
+}
+
+.hero-content p {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: justify;
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .hero-content p {
+    font-size: 20px;
+  }
+
+  .nav-bar {
+    padding: 20px 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    left: 20px;
+    right: 20px;
+    max-width: 90%;
+    bottom: 80px;
+  }
+
+  .hero-content h1 {
+    font-size: 26px;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+  }
+
+  .text {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .text a {
+    font-size: 12px;
+  }
+
+  .text button {
+    padding: 8px 12px;
+  }
+
+  .text button a {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content {
+    bottom: 60px;
+  }
+
+  .hero-content h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .text {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text a, .text button a {
+    font-size: 12px;
+  }
+
+  .image img {
+    width: 80px;
+  }
+}
