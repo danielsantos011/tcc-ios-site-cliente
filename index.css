@@ -744,7 +744,7 @@ body {
 }
 
 .menu-links button{
-  padding: 15px;
+  padding: 10px;
   border-radius: 10px;
   border: none;
   background-color: var(--cor--principal);
