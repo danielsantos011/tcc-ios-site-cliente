@@ -735,9 +735,6 @@ body {
   display: flex;
   align-items: center;
   gap: 15px;
-  position: absolute;
-  top: 14px;
-  margin-left: 840px
   
 }
 
@@ -755,6 +752,9 @@ body {
   background-color: var(--cor--principal);
   text-transform: uppercase;
 }
+
+
+
 
 .btn a{
   text-transform: uppercase;
