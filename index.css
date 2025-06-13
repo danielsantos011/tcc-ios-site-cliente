@@ -274,9 +274,11 @@ body {
   background-color: white;
   border-radius: 16px;
   overflow: hidden;
-  width: 250px;
+  width: 400px;
+  height: 300px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
+
 }
 
 .pilates-servico-card:hover {
@@ -301,6 +303,7 @@ body {
 .pilates-servico-conteudo p {
   font-size: 14px;
   color: #444;
+  
 }
 
 .pilates-servico-cta {
