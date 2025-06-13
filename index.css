@@ -187,7 +187,7 @@ body {
   border-radius: 1rem;
   padding: 1.5rem;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  width: 260px;
+  width: 300px;
   text-align: center;
  
 }
@@ -204,8 +204,9 @@ body {
 }
 
 .card p {
-  font-size: 0.9rem;
+  font-size: 18px;
   color: #666;
+  text-align: left;
 }
 
 .cta-card {
@@ -576,7 +577,7 @@ body {
 }
 
 .observacao {
-  font-size: 12px;
+  font-size: 15px;
   color: var(--cor--hover);
   margin-top: 30px;
   font-weight: 700;
@@ -587,12 +588,13 @@ body {
   justify-content: center;
   gap: 16px;
   margin-bottom: 2rem;
+  
 }
+
 
 .plan-button {
   background-color: var(--cor--principal);
   color: white;
-  font-weight: 600;
   border: none;
   border-radius: 12px;
   padding: 10px 20px;
