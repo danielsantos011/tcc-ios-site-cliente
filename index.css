@@ -44,8 +44,8 @@ body {
 }
 
 .image img {
-  height: 200px;
-  width: 200px;
+  width: 100px;
+  
 }
 
 .navbar-links {
@@ -160,7 +160,6 @@ body {
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   border-radius: 500px;
-  width: 200px;
 }
 
 .beneficios {
