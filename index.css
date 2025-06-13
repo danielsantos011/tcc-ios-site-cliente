@@ -45,6 +45,7 @@ body {
 
 .image img {
   width: 100px;
+  
 }
 
 .navbar-links {
@@ -771,15 +772,28 @@ body {
     z-index: 1000;
   }
 
+  .menu-links{
+    background-color: white;
+  }
+
+  .menu-links button{
+    background-color: white;
+    margin-top: 10px;
+  }
+
   .menu-links.active {
     display: flex;
   }
 
   .menu-links a, .menu-links button a {
     margin: 10px 0;
-    color: white;
+    color: var(--cor--principal);
+    
+    
     
   }
+  
+
 
   .nav-bar {
     flex-direction: row;
