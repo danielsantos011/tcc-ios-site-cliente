@@ -593,7 +593,7 @@ body {
 
 
 .plan-button {
-  background-color: var(--cor--principal);
+  background-color: var(--cor--hover);
   color: white;
   border: none;
   border-radius: 12px;
@@ -624,7 +624,7 @@ body {
 }
 
 .rodape img{
-  width: 100px;
+  width: 150px;
 }
 
 
@@ -735,12 +735,17 @@ body {
   display: flex;
   align-items: center;
   gap: 15px;
+  position: absolute;
+  top: 14px;
+  margin-left: 840px
+  
 }
 
 .menu-links a{
   text-decoration: none;
   color: white;
   font-weight: 800;
+  font-size: 14px;
 }
 
 .menu-links button{
@@ -840,7 +845,7 @@ body {
 }
 
 .footer-nav a:hover {
-  color: #1da1f2;
+  color: black;
 }
 
 .footer p {
