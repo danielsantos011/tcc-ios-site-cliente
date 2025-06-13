@@ -15,17 +15,21 @@
 <body>
   <header class="hero-section">
     <div class="nav-bar">
-      <div class="image">
-        <img src="./assets/image/Imagem_do_WhatsApp_de_2025-06-11_à_s__18.49-Photoroom__2_-removebg-preview.png" alt="Logo da Studio Pilates" />
-      </div>
-      <div class="text"> 
-        <button><a href="">Agende sua aula experimental</a></button>
-        <a href="#conteudo">QUEM SOMOS</a>
-        <a href="#serviços">SERVIÇOS</a>
-        <a href="#planos">PLANOS</a>
-        <a href="">CONTATO</a>
-      </div>
-    </div>
+  <div class="image">
+    <img src="./assets/image/Imagem_do_WhatsApp_de_2025-06-11_à_s__18.49-Photoroom__2_-removebg-preview.png" alt="Logo da Studio Pilates" />
+  </div>
+
+  <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+
+  <nav class="menu-links" id="menu">
+    <button><a href="#" class="btn">Agende sua aula experimental</a></button>
+    <a href="#conteudo">QUEM SOMOS</a>
+    <a href="#serviços">SERVIÇOS</a>
+    <a href="#planos">PLANOS</a>
+    <a href="#contato">CONTATO</a>
+  </nav>
+</div>
+
     <div class="hero-content">
       <h1>SINTA-SE MAIS FORTE, FLEXÍVEL E SAUDÁVEL COM O STUDIO PILATES KELLEN</h1>
       <p>Pilates personalizado com profissional qualificada para cuidar de você em cada exercício.</p>
@@ -164,7 +168,6 @@
       <p class="por-mes">Por mês*</p>
       <button>Quero meu plano trimestral</button>
     </div>
-
     <div class="plano-card">
       <span class="plano-tipo">MENSAL</span>
       <p class="preco">A partir de<br><strong id="mensal-preco">R$150,00</strong></p>
@@ -273,7 +276,17 @@
   botaoSelecionado.classList.add('active');
 }
 
+
+  const menuToggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('menu');
+
+  menuToggle.addEventListener('click', () => {
+    menu.classList.toggle('active');
+  });
+
+
 </script>
+
 
 
 </body>

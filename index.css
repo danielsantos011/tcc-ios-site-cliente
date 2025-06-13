@@ -718,3 +718,72 @@ body {
   }
 }
 
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.menu-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.menu-links a{
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+}
+
+.menu-links button{
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--cor--principal);
+  text-transform: uppercase;
+}
+
+.btn a{
+  text-transform: uppercase;
+  
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .menu-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background-color: var(--cor--principal);
+    width: 100%;
+    padding: 20px;
+    text-align: right;
+    z-index: 1000;
+  }
+
+  .menu-links.active {
+    display: flex;
+  }
+
+  .menu-links a, .menu-links button a {
+    margin: 10px 0;
+    color: white;
+    
+  }
+
+  .nav-bar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+
+
