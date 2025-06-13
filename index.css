@@ -805,53 +805,15 @@ body {
 }
 
 .footer {
+  background-color: #407a7a;
   color: #fff;
   text-align: center;
-  padding: 30px 20px;
-  font-family: Arial, sans-serif;
-  margin-top: -80px;
+  padding: 40px 20px;
+  font-family: 'Inter', sans-serif;
 }
 
-.footer .social-icons {
-  margin-bottom: 15px;
-}
-
-.footer .social-icons a {
-  color: white;
-  margin: 0 10px;
-  font-size: 22px;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.footer .social-icons a:hover {
-  color: #1da1f2;
-}
-
-.footer-nav {
-  margin-bottom: 10px;
-}
-
-.footer-nav a {
-  color: white;
-  margin: 0 10px;
-  text-decoration: none;
-  font-size: 14px;
-  transition: color 0.3s;
-}
-
-.footer-nav a:hover {
-  color: black;
-}
-
-.footer p {
-  font-size: 13px;
-  margin: 0;
-}
-
-.social-footer {
-  padding: 40px 0;
-  text-align: center;
+.social-icons {
+  margin-bottom: 20px;
 }
 
 .social-icon {
@@ -859,22 +821,45 @@ body {
   margin: 0 10px;
   background-color: #fff;
   color: #222;
-  width: 50px;
-  height: 50px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
-  line-height: 50px;
+  line-height: 48px;
   font-size: 20px;
   transition: all 0.3s ease;
+  text-align: center;
+}
+
+.social-icon:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 .social-icon i {
   vertical-align: middle;
 }
 
-.social-icon:hover {
-  background-color: black; /* cor ao passar o mouse */
-  color: #fff;
+.footer-nav {
+  margin: 20px 0;
 }
+
+.footer-nav a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #000;
+}
+
+.footer p {
+  font-size: 14px;
+  margin: 0;
+}
+
 
 
 
