@@ -853,5 +853,33 @@ body {
   margin: 0;
 }
 
+.social-footer {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.social-icon {
+  display: inline-block;
+  margin: 0 10px;
+  background-color: #fff;
+  color: #222;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.social-icon i {
+  vertical-align: middle;
+}
+
+.social-icon:hover {
+  background-color: black; /* cor ao passar o mouse */
+  color: #fff;
+}
+
+
 
 
