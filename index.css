@@ -735,9 +735,7 @@ body {
   display: flex;
   align-items: center;
   gap: 15px;
-  position: absolute;
-  top: 14px;
-  margin-left: 840px
+
   
 }
 
