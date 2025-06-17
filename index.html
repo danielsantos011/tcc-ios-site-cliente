@@ -211,11 +211,11 @@
   </div>
 
   <nav class="footer-nav">
-    <a href="#">Início</a>
-    <a href="#">Quem Somos</a>
-    <a href="#">Serviços</a>
-    <a href="#">Sobre</a>
-    <a href="#">Contato</a>
+    <a href="#contato">Início</a>
+    <a href="#Quem Somos">Quem Somos</a>
+    <a href="#Serviços">Serviços</a>
+    <a href="#Planos">Planos</a>
+    <a href="#Contato">Contato</a>
   </nav>
 
   <p class="copyright">
@@ -304,7 +304,27 @@
 
 </script>
 
+<button id="btnVoltarTopo" title="Voltar ao topo">↑</button>
 
+  <script>
+    const btn = document.getElementById("btnVoltarTopo");
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 300) {
+        btn.style.display = "block";
+      } else {
+        btn.style.display = "none";
+      }
+    });
+
+    btn.addEventListener("click", () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+  </script>
+  
 
 </body>
 </html>
