@@ -11,13 +11,10 @@ html {
   scroll-behavior: smooth;
 }
 
-
 :root{
   --cor--principal: #447C7D;
   --cor--hover: #2b5756;
 }
-
-
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -31,7 +28,6 @@ body {
   color: white;
   position: relative;
 }
-
 
 .nav-bar {
   top: -10px;
@@ -270,7 +266,6 @@ body {
   background-color: var(--cor--hover);
 }
 
-
 .pilates-servicos {
   background-color: #d3e6d7;
   text-align: center;
@@ -394,9 +389,6 @@ body {
     padding: 10px 16px;
   }
 }
-
-
-
 
 .depoimentos {
   background-color: #fff;
@@ -717,7 +709,6 @@ body {
   
 }
 
-
 .plan-button {
   background-color: var(--cor--hover);
   color: white;
@@ -742,7 +733,6 @@ body {
   transform: scale(1.05);
 }
 
-
 .rodape{
   background-color: var(--cor--principal);
   padding: 60px;
@@ -752,7 +742,6 @@ body {
 .rodape img{
   width: 150px;
 }
-
 
 /* Responsividade */
 @media (max-width: 1024px) {
@@ -836,7 +825,6 @@ body {
   }
 }
 
-
 @media (max-width: 480px) {
   .botao {
     padding: 10px 16px;
@@ -878,9 +866,6 @@ body {
   background-color: var(--cor--principal);
   text-transform: uppercase;
 }
-
-
-
 
 .btn a{
   text-transform: uppercase;
@@ -1031,9 +1016,6 @@ scroll-margin-top: 0.5px;
   background-color: #000;
 }
 
-
-
-
 .contato {
   padding: 80px 20px;
 }
@@ -1109,7 +1091,3 @@ scroll-margin-top: 0.5px;
     width: 100%;
   }
 }
-
-
-
-
