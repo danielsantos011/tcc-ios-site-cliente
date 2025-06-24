@@ -971,6 +971,18 @@ body {
   margin: 0;
 }
 
+[vw] {
+  display: block !important;
+  visibility: visible !important;
+  z-index: 999999 !important;
+  position: fixed !important;
+}
+
+[vw-access-button] {
+  bottom: 15px !important;
+  right: -8px !important;
+}
+
 #btnVoltarTopo {
       position: fixed;
       bottom: 20px;
