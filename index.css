@@ -1103,3 +1103,44 @@ scroll-margin-top: 0.5px;
     width: 100%;
   }
 }
+
+.contato-box {
+  background-color: #4a4a4a;
+  color: white;
+  border-radius: 16px;
+  padding: 30px 25px;
+  max-width: 500px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 80px;
+}
+
+.contato-box h3 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.contato-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.contato-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.contato-item i {
+  font-size: 16px;
+}
+
+.mapa iframe {
+  border-radius: 8px;
+  width: 100%;
+  height: 250px;
+}
+
